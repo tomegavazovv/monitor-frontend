@@ -1,0 +1,42 @@
+.imageContainer {
+	position: relative;
+	cursor: pointer;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.image {
+	max-width: 600px;
+	max-height: 450px; /* Adjust as necessary */
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.5); /* Overlay color */
+	font-size: 24px; /* Adjust size as necessary */
+}
+
+.image_of_many {
+	background-color: red;
+	width: 298px;
+	height: 400px;
+}
+
+.container {
+	display: flex;
+	justify-content: space-around;
+}
+
+.gallery {
+	margin-top: 20px;
+}

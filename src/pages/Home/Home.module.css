@@ -1,0 +1,67 @@
+.container {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	background-color: #f4f2ee;
+	
+}
+
+.feed_container {
+	height: 100vh;
+	width: calc(100% - 300px); /* Subtract 300px for the sidebar */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: start;
+}
+
+.sidebar {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	width: 300px;
+	height: 100%;
+}
+
+.install_extension_container {
+	overflow: hidden;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #f4f2ee;
+}
+
+.content_container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20vh;
+}
+
+.extension_text {
+	font-size: 46px;
+	font-weight: 500;
+	text-align: center;
+}
+
+.install_button {
+	background-color: #0b66c2;
+	margin-top: 0px;
+	padding: 20px 40px;
+	color: white;
+	font-weight: 600;
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	column-gap: 10px;
+	border: none;
+	border-radius: 30px;
+}
+
+.install_button:hover {
+	cursor: pointer;
+}

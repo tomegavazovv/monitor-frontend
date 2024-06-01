@@ -1,0 +1,8 @@
+.headline {
+	padding-left: 7px;
+	width: 150%;
+	font-size: 13px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow-x: hidden;
+}

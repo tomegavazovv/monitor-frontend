@@ -1,0 +1,48 @@
+.container {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.feed_container {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.filters_sidebar {
+	height: 100%;
+	position: absolute;
+	right: 0px;
+	overflow: hidden;
+}
+
+.pick_list {
+	font-weight: 400;
+	font-style: normal;
+	font-size: 20px;
+	margin-left: -250px;
+	padding-top: 65px;
+	color: rgb(62, 62, 62);
+	height: 100%;
+
+	justify-self: start;
+	position: relative;
+}
+
+.lottie {
+	position: absolute;
+	bottom: 5em;
+	transform: rotateY(180deg) rotateX(180deg) rotateZ(-80deg);
+	opacity: 0.2;
+}
+
+.emoji {
+	margin-left: 5px;
+	font-size: 25px;
+}

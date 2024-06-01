@@ -1,0 +1,259 @@
+.post_container {
+	width: 600px;
+	display: flex;
+	flex-direction: column;
+	padding: 20px 45px;
+	border-radius: 12px;
+	padding-bottom: 20px;
+	margin-top: 50px;
+	background-color: white;
+}
+
+.headline {
+	margin-top: 0px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.profile_image {
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+.headline_name {
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0px;
+	padding: 0px;
+}
+
+.headline_date {
+	font-size: 11px;
+	margin: 0px;
+	margin-top: 3px;
+	font-weight: 500;
+	padding: 0px;
+	color: rgb(142, 142, 142);
+}
+
+.headline_headline {
+	font-size: 11px;
+	margin: 0px;
+	margin-top: 3px;
+	padding: 0px;
+	color: rgb(142, 142, 142);
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width: 400px;
+}
+
+.metrics {
+	font-size: 10px;
+	color: rgb(83, 83, 83);
+	margin: 0px;
+	white-space: nowrap;
+	cursor: pointer;
+	margin-right: 10px;
+}
+
+.metrics:hover {
+	text-decoration: underline;
+}
+
+.post_engagement {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 10px;
+	margin-bottom: 6px;
+}
+
+.comments_reposts {
+	display: flex;
+	flex-direction: row;
+}
+
+.small_dash {
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+.reactions_img {
+	width: 30px;
+	height: 14px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.reactions {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.engage_container {
+	margin-top: 0px;
+	border-top: 1px solid #e8e8e8;
+	padding-top: 5px;
+	display: flex;
+	justify-content: space-around;
+	column-gap: 20px;
+}
+
+.me_profile_image {
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+}
+
+.comment_container {
+	width: 100%;
+	margin-top: 10px;
+	display: flex;
+	column-gap: 10px;
+}
+
+.comment_input {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+		'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+	width: 95%;
+	border-radius: 10px;
+	border: 1px solid grey;
+	padding: 6px 10px;
+	height: auto;
+	min-height: 10px; /* Minimum height */
+	overflow: hidden;
+}
+
+.open_image {
+	height: 20px;
+	padding: 7px 9px;
+}
+
+.open:hover .open_image {
+	background-color: rgba(0, 0, 0, 0.05); /* Semi-transparent black overlay */
+	mix-blend-mode: multiply; /* This blend mode must be compatible with your design */
+	cursor: pointer;
+}
+
+.carousel {
+	margin-bottom: 20px;
+}
+
+.textarea_button_container {
+	position: relative;
+	display: flex;
+}
+
+.comment_input {
+	flex-grow: 1;
+	padding-right: 40px; /* Adjust this value based on the size of the button */
+}
+
+.emoji_button {
+	position: absolute;
+	bottom: 6px;
+	right: 83px; /* Adjust spacing to the right edge */
+	border: none;
+	background: none;
+	cursor: pointer;
+	width: 22px;
+}
+
+.picker {
+	position: absolute;
+	right: 0px;
+	top: 5px;
+}
+
+.close_image {
+	width: 14px;
+	margin-right: -10px;
+	padding: 5px;
+	border-radius: 5px;
+	transition: transform 0.2s ease-in-out; /* Smooth transition */
+}
+
+.close_image:hover {
+	cursor: pointer;
+	background-color: rgb(238, 238, 238);
+	transform: scale(1.2);
+}
+
+.close_container {
+	width: 100%;
+	justify-self: end;
+	text-align: end;
+}
+
+.skipped {
+	display: none;
+}
+
+.submit_comment_btn {
+	justify-self: start;
+	align-self: flex-start;
+	margin-top: 2px;
+	margin-left: 10px;
+	background-color: rgb(11, 102, 194);
+	padding: 7px 10px;
+	border: none;
+	color: white;
+	border-radius: 7px;
+	font-weight: 600;
+}
+
+.disabled {
+	background-color: rgba(11, 102, 194, 0.7);
+	cursor: not-allowed !important;
+}
+
+.submit_comment_btn:hover {
+	cursor: pointer;
+}
+
+.my_comment_container {
+	margin-left: 45px;
+	font-size: 13px;
+	width: 80%;
+	background-color: #f3f2f0;
+	margin-top: 5px;
+	border-radius: 5px;
+}
+
+.my_comment {
+	margin-left: 10px;
+}
+
+.video_container {
+	position: relative;
+	width: 600px; /* Set to the width of your video */
+}
+
+.video_overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-size: 24px;
+	cursor: pointer;
+	z-index: 100;
+}
+
+.comment_loader_container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 15px;
+}

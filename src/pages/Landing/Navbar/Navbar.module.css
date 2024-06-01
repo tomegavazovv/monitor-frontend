@@ -1,0 +1,50 @@
+.container{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    margin-top: -12px;
+}
+
+.links{
+    display: flex;
+    column-gap: 6rem;
+    align-items: center;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.actions{
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.cta_button_nav{
+    background-color: #0A66C2;
+    padding: 10px 15px;
+    font-size: 14px;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+}
+
+.cta_button_nav:hover{
+    cursor: pointer;
+}
+
+.login:hover{
+    cursor: pointer;
+}

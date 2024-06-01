@@ -1,0 +1,27 @@
+.hoverOptions {
+	position: absolute;
+	bottom: 100%; /* Aligns the bottom of the hoverOptions with the top of the .like element */
+	left: 50%;
+	transform: translateX(-50%);
+	background-color: white;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	padding: 5px 10px;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+	white-space: nowrap; /* Ensures the content does not wrap */
+	display: flex;
+	column-gap: 10px;
+}
+
+.reaction_image {
+	height: 26px;
+}
+
+.insightful_image {
+	height: 28px;
+}
+
+.open_image {
+	height: 19px;
+	padding: 8px 9px;
+}

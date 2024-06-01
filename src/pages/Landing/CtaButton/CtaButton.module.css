@@ -1,0 +1,27 @@
+.cta_headline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cta_button {
+  background-color: #0a66c2;
+  padding: 10px 15px;
+  font-size: 14px;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+}
+
+.cta_button:hover{
+    cursor: pointer;
+}
+
+.cc {
+  margin: 0px;
+  color: #737171;
+  font-size: 11px;
+  margin-top: 10px;
+}

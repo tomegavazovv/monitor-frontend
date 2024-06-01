@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 10rem;
+}
+
+.headline {
+  margin: 0px;
+  font-size: 64px;
+  font-weight: 800;
+}
+
+.subheadline_container {
+  margin-top: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.subheadline {
+  margin: 0px;
+  font-size: 18px;
+  line-height: 23px;
+}

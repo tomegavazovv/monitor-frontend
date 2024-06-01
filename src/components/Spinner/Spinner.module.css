@@ -1,0 +1,14 @@
+.loader {
+	margin-top: 15px;
+	width: 200px;
+	height: 12px;
+	border-radius: 15px;
+	background: linear-gradient(orange 0 0) 0/0% no-repeat rgba(247, 206, 129, 0.998);
+	animation: l2 4s steps(100) forwards; /* Added 'forwards' to retain the last keyframe state */
+}
+
+@keyframes l2 {
+	100% {
+		background-size: 110%;
+	}
+}

@@ -1,0 +1,44 @@
+.modal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 1001;
+}
+
+.content {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 90vw;
+	max-height: 80vh;
+}
+
+.closeButton {
+	position: absolute;
+	right: 20px;
+	top: 20px;
+}
+
+.arrowButton {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	background-color: transparent;
+	border: none;
+	color: white;
+	font-size: 24px;
+	cursor: pointer;
+}
+
+.image {
+	max-width: 100%;
+	max-height: 800px;
+	display: block;
+}

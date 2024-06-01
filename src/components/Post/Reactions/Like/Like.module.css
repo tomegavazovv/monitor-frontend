@@ -1,0 +1,36 @@
+.like:hover {
+	filter: brightness(95%);
+	cursor: pointer;
+}
+
+.like_image {
+	height: 18px;
+	position: relative;
+	z-index: 1;
+	padding: 9px;
+}
+
+.like_image:hover {
+	cursor: pointer;
+}
+
+.like:hover .like_image {
+	background-color: rgba(0, 0, 0, 0.05); /* Semi-transparent black overlay */
+	mix-blend-mode: multiply; /* This blend mode must be compatible with your design */
+}
+
+.like {
+	position: relative;
+	display: inline-block;
+}
+
+.like_image {
+	display: block;
+	width: auto;
+	cursor: pointer;
+}
+
+.reaction_image {
+	margin-top: 6px;
+	height: 22px;
+}

@@ -1,0 +1,46 @@
+.content {
+	margin-top: 10px;
+	font-size: 13.7px;
+	line-height: 18px;
+	font-weight: 450;
+	width: 100%;
+	margin-bottom: 1px;
+	font-family: system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans,
+		Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji,
+		Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
+	display: -webkit-box;
+	position: relative;
+}
+
+.truncated {
+	display: -webkit-box;
+	-webkit-line-clamp: 3; /* Number of lines to show */
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.hashtag {
+	font-weight: 700;
+	color: #0b66c2;
+	text-decoration: none;
+}
+
+.see_more {
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	right: 0px;
+	z-index: 1000;
+	color: #7e7d7d;
+	font-weight: 500;
+	font-size: 14px;
+	background-color: white;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.see_more:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}

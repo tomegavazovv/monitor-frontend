@@ -1,0 +1,26 @@
+/* StatusCard.module.css */
+
+.card {
+	border-left-width: 4px;
+	padding: 0px 16px;
+	border-radius: 8px;
+	width: 100%;
+	text-wrap: nowrap;
+}
+
+.succeeded {
+	background-color: #ffffff; /* Tailwind green-100 */
+	color: black; /* Tailwind green-900 */
+}
+
+.failed {
+	background-color: #fee2e2; /* Tailwind red-100 */
+	border-left-color: #ef4444; /* Tailwind red-500 */
+	color: #991b1b; /* Tailwind red-900 */
+}
+
+.unknown {
+	background-color: #e5e7eb; /* Tailwind gray-100 */
+	border-left-color: #6b7280; /* Tailwind gray-500 */
+	color: #1f2937; /* Tailwind gray-900 */
+}

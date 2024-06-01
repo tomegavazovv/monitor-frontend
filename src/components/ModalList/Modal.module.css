@@ -1,0 +1,24 @@
+.modal {
+	position: fixed; /* Fixed positioning to make it stay in place during scrolling */
+	top: 0;
+	left: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent black background */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 1000; /* High z-index to ensure it's on top of other content */
+}
+
+.modal_content {
+	background: white;
+	padding: 30px 40px;
+	border-radius: 8px;
+	max-width: 400px; /* Maximum width of the modal to ensure it doesn't get too large on big screens */
+	width: 90%; /* Adjust width as necessary, up to a max-width */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
