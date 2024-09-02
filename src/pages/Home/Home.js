@@ -30,6 +30,8 @@ function Home() {
 			}
 		}, 15000)
 
+		dispatchEvent('userLoggedIn', { token: localStorage.getItem('token') })
+
 		return () => {
 			window.removeEventListener('message', handleExtensionMessage)
 			clearTimeout(timeoutId)

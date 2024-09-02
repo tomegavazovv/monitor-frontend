@@ -48,7 +48,7 @@ const Pricing = () => {
           <span>
             $
             <strong style={{ fontSize: "22px" }}>
-              {buttonValue ? "14.99" : "19.99"}
+              {buttonValue ? "7.99" : "9.99"}
             </strong>{" "}
             /month
           </span>

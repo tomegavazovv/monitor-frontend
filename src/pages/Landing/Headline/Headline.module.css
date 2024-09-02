@@ -26,3 +26,25 @@
   font-size: 18px;
   line-height: 23px;
 }
+
+
+.headline2 {
+  margin: 0px;
+  font-size: 64px;
+  font-weight: 800;
+}
+
+.subheadline_container2 {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.subheadline2 {
+  margin: 0px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 31px;
+}

@@ -25,6 +25,10 @@ const routesForPublic = [
 		path: '',
 		element: <Landing />,
 	},
+	{
+		path: '/feed',
+		element: <Landing />,
+	},
 ]
 
 const routesForAuthenticatedOnly = [
